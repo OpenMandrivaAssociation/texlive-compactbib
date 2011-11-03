@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/compactbib/compactbib.sty
+# catalog-date 2007-01-01 11:39:06 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-compactbib
 Version:	20070101
 Release:	1
@@ -34,6 +40,7 @@ title, after the main bibliography.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/compactbib/compactbib.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,3 +51,5 @@ title, after the main bibliography.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
