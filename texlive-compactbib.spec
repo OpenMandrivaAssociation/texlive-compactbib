@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-compactbib
 Version:	20070101
-Release:	4
+Release:	5
 Summary:	Multiple thebibliography environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/compactbib/compactbib.sty
