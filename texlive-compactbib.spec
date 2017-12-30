@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-compactbib
-Version:	20070101
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Multiple thebibliography environments
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/compactbib/compactbib.sty
