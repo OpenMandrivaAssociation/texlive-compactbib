@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Multiple thebibliography environments
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/compactbib/compactbib.sty
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/compactbib/compactbib.sty
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/compactbib.r%{version}.tar.xz
 BuildArch:	noarch
